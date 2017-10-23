@@ -16,6 +16,10 @@ Server:
 
 $ sudo docker images
 
+# イメージの詳細
+
+$ sudo docker inspect s12v/elasticmq
+
 # イメージを探す
 
 $ sudo docker search elasticmq
@@ -36,4 +40,12 @@ $ sudo docker run -p 9324:9324 s12v/elasticmq
 
 $ docker port xxxxx
 
-# 
+# Dockerfileに基づきイメージ作成
+
+$ sudo docker build -t xxxx .
+
+# 不要になったローカルのイメージファイルを削除
+
+$ sudo docker rmi xxxx
+
+
