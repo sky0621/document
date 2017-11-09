@@ -45,3 +45,9 @@
 ### Stackdriver = Cloud Watch
 
 ### Cloud IAM = IAM
+
+# GCPの全体像
+
+・全世界で７か所のリージョン
+
+・それぞれのリージョンには２～４個のゾーンが存在
