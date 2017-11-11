@@ -46,6 +46,8 @@
 
 ### Cloud IAM = IAM
 
+### Cloud Launcher = CloudFormation(?)
+
 # GCPの全体像
 
 ・全世界で７か所のリージョン
