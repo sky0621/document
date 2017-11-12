@@ -40,6 +40,10 @@ Actionから依頼された仕事を記録係であるStoreに伝達する役目
 
 （MVVMで言うところのModelかつViewModel？）
 
+Action、Dispatcherは、やることが限られていて、Viewは表示のみということで、Storeにロジックが集中してしまいそうな感。
+
+Storeは、Dispatcherにディスパッチしてもらうために自身をDispatcherに登録しておく（Observerパターン）。
+
 ### View ... 表示係
 
 Storeの状態に応じて画面を表示する役目。
