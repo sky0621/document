@@ -69,3 +69,11 @@ Storeは現在のカウントを１つ加算する。Storeの変更はViewに通
 ## サンプル実装
 
 ![Facebookの提供するサンプル](https://github.com/facebook/flux/tree/master/examples/flux-todomvc)
+
+## Redux
+
+Fluxの実装の一つでデファクトスタンダード？
+
+以下スライドが jQuery を使う場合の辛さから Redux を使うまでの必然性について理解しやすくまとまっている。
+
+![React + FLUX + Redux + Redux Saga のお話](https://www.slideshare.net/yossy222/react-flux-redux-redux-saga)
