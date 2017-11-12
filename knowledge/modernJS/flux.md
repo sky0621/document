@@ -66,4 +66,6 @@ Storeは現在のカウントを１つ加算する。Storeの変更はViewに通
 
 ※画面で何かが起きた時は、必ずActionから物事が始まるようにする。Viewでボタンが押されたからといって、Viewの中でStoreを呼んでカウントを加算するのはNG。
 
+## サンプル実装
 
+![Facebookの提供するサンプル](https://github.com/facebook/flux/tree/master/examples/flux-todomvc)
