@@ -14,6 +14,16 @@
 
 ### プロパティ(props)
 
+- 外部との窓口となる、要素のプロパティ(＝タグの属性)
 
+- コンポーネント自身はプロパティを変更できず(読取専用)、親コンポーネントから設定される(componentWillReceiveProps(nextProps))
+
+- 初期値の設定(defaultProps)と型の検証(propTypes)を行える
+
+- 通常、プロパティの変更は、状態の変更となり、以下が呼び出される
+
+ <pre>
+   shouldComponentUpdate（
+ </pre>
 
 ### イベント(onXXX)
