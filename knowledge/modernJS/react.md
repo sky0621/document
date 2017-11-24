@@ -1,6 +1,33 @@
 # React
 
-## 概要
+## 特徴
+
+### JSX
+
+JavaScriptの中にHTMLタグを記述
+
+### VirtualDOM
+
+DOMの状態をメモリ上に保持し、必要最小限の更新で済ます
+
+### コンポーネント指向
+
+## コンポーネントのライフサイクル
+
+### コンポーネント生成とDOMへのマウント
+
+初回のみ実行
+
+- constructor(props)
+
+- componentWillMount()　・・・コンポーネントがDOMにマウントされる直前
+
+- render()
+
+- componentDidMount()
+
+### コンポーネント更新
+
 
 ## コンポーネント3大要素
 
@@ -27,3 +54,9 @@
  </pre>
 
 ### イベント(onXXX)
+
+## ツール
+
+### create-react-app
+
+Reactプロジェクト生成
