@@ -58,3 +58,9 @@
 
 ### Dataprep ＝？
 
+## 管理・監視
+
+### Cloud IAM ＝？IAM
+
+### Stackdriver ＝？Cloud Watch
+
