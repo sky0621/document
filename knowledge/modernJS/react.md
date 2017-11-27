@@ -30,6 +30,16 @@ DOMの状態をメモリ上に保持し、必要最小限の更新で済ます
 
 - componentWillReceiveProps(nextProps)　・・・コンポーネントのプロパティが変更された時
 
+- shouldComponentUpdate(nextProps, nextState) ・・・コンポーネントの外観を更新してよいか判断する時
+
+- componentWillUpdate() ・・・コンポーネントが更新される直前
+
+- componentDidUpdate() ・・・コンポーネントが更新された直後
+
+### コンポーネントのアンマウント
+
+- componentWillUnmount() ・・・コンポーネントのアンマウント
+
 ## コンポーネント3大要素
 
 ### 状態(state)
